@@ -213,7 +213,6 @@ a.btn-more {
 /* --------------------------------------------------------------------------
 2. Navbar
 -------------------------------------------------------------------------- */
-
 .navbar-custom {
   padding: 1.5rem !important;
   background-color: rgba(0, 0, 0, 0);
@@ -560,7 +559,7 @@ span.subtitle {
   width: 50px;
   height: 50px;
   background: #fff;
-  margin-right: 15px;
+  margin-right: 12px;
   text-align: center;
 }
 .social-media a:hover {
