@@ -33,7 +33,7 @@
   <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container">
       <a href="#" id="logo">
-        FOSTI UMS
+        <img style="height: 60px; width: 60px;" src="./source/images/LogoFosti.jpeg" alt="">
       </a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,12 +106,20 @@
         <div class="col-lg-8">
           <div class="about-detail">
             <div class="row">
-              
+              <div class="col-sm-6">
+                <div class="about-detail-item" data-aos="fade-left" data-aos-delay="200">
+                  <img src="source/images/research.png" alt="icon">
+                  <h4>Keilmuan & Riset Teknologi</h4>
+                  <p>Divisi yang mengulas dan mengimplementasikan teknologi saat ini</p>
+                  <a href="#" class="btn-more" data-toggle="modal" data-target="#ristek">Selengkapnya <i
+                      class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+              </div>
               <div class="col-sm-6">
                 <div class="about-detail-item" data-aos="fade-left" data-aos-delay="400">
                   <img src="source/images/web.png" alt="icon">
-                  <h4>Divisi Riset, keilmuan dan Teknologi</h4>
-                  <p>Divisi yang mengulas dan mengimplementasikan teknologi saat ini</p>
+                  <h4>Web Jaringan</h4>
+                  <p>Divisi yang fokus dalam hal seputaran web dan juga jaringan di dalamnya</p>
                   <a href="#" class="btn-more" data-toggle="modal" data-target="#webjar">Selengkapnya <i
                       class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
@@ -414,7 +422,7 @@
           </div>
           <div class="col-lg-6 align-self-center block-cta">
             <div data-aos="fade-right">
-              <a href="https://oprec.fostiums.org" class="btn btn-lg btn-green">Join With Us</a>
+              <a href="#" class="btn btn-lg btn-green">Join With Us</a>
             </div>
           </div>
         </div>
@@ -427,25 +435,23 @@
   <footer id="footer-wrapper">
     <div class="container">
       <div class="row d-flex">
-        <div class="col-lg-3">
+        <div class="col-lg-4" >
           <div data-aos="fade-up">
             <h3>FOSTI UMS</h3>
             <p>Forum Open Source Teknik Informatika Universitas Muhammadiyah Surakarta</p>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-6">
+        <div class="col-lg-4 col-sm-6" >
           <div data-aos="fade-up" data-aos-delay="200">
-            <h5>Support</h5>
+            <h5>Other</h5>
             <ul>
-              <li><a href="#">Tutorial</a></li>
-              <li><a href="#">Presentation</a></li>
-              <li><a href="#">Messages</a></li>
-              <li><a href="#">Management</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="https://github.com/FOSTI-UMS">Github</a></li>
+              <li><a href="https://blog.fostiums.org/">Blog</a></li>
+              <li><a href="https://event.fostiums.org/">Event</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-6">
+        <!-- <div class="col-lg-2 col-sm-6">
           <div data-aos="fade-up" data-aos-delay="400">
             <h5>Team</h5>
             <ul>
@@ -467,21 +473,21 @@
               <li><a href="#">Bussines</a></li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div data-aos="fade-up" data-aos-delay="800">
+        </div> -->
+        <div class="col-lg-4 col-sm-6">
+          <div data-aos="fade-up" data-aos-delay="400">
             <h5>Address</h5>
             <p>Jl. Ahmad Yani, Pabelan, Kartasura, Surakarta 57162</p>
             <div class="social-media">
               <ul>
                 <li>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/Fosti.Umsurakarta/"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/fosti_ums/"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="https://twitter.com/fostiums"><i class="fab fa-twitter"></i></a>
                 </li>
               </ul>
             </div>
@@ -494,7 +500,12 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <span>© All rights reserved 2020 | Created by Fosti with <i class="fas fa-heart"></i></span>
+          <footer>&copy; All rights reserved
+            <script>
+              document.write("- " + new Date().getFullYear());
+            </script> | Created by Fosti with <i class="fas fa-heart"></i>
+          </footer>
+          <!-- <span>© All rights reserved 2020 | Created by Fosti with <i class="fas fa-heart"></i></span> -->
         </div>
       </div>
     </div>
