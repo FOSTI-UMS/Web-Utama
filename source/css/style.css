@@ -449,7 +449,7 @@ span.subtitle {
 6. News
 -------------------------------------------------------------------------- */
 #news-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #news-wrapper h3 {
   font-weight: 600;
@@ -479,6 +479,7 @@ span.subtitle {
   float: right;
   z-index: 1;
   position: relative;
+  width: 20rem;
 }
 #news-wrapper img:nth-child(2) {
   position: absolute;
