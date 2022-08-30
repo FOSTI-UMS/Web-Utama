@@ -438,6 +438,7 @@ span.subtitle {
 -------------------------------------------------------------------------- */
 #gallery {
   background: #fafafa;
+  display: none;
 }
 #gallery h3 {
   text-align: center;
