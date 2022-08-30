@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", main)
  * Main function of the script
  */
 async function main() {
-  initGallery()
+  // initGallery()
   initAOS()
   initNavbar()
   initButtonScrollToTopPage()
@@ -169,10 +169,10 @@ async function renderLatestEvent() {
     eventPhamplet.src = endpoints.getPamphlet.url(latestEvent.pamflet)
     joinEventLink.href = endpoints.joinEvent.url(latestEvent.slug)
   } catch (e) {
-    eventTitle.innerText = 'Sorry, We Get Some Problem To Load The Latest Event'
-    eventDescription.innerText = 'Please, try to refresh the page !'
-    eventDate.innerText = '00-00-0000'
-    eventTime.innerText = '00.00 WIB'
+    eventTitle.innerText = 'Maaf, sepertinya kami tidak dapat memuat data event terakhir 😭'
+    eventDescription.innerText = 'Silahkan coba refresh halaman ini !'
+    eventDate.innerText = '-'
+    eventTime.innerText = '-'
     eventPlace.innerText = '-'
     eventPhamplet.src = 'source/images/failed-phamplet.png'
   }
