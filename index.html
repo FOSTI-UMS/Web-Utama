@@ -4,17 +4,24 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
 
-  <title>FOSTI UMS 2021</title>
+  <title>FOSTI UMS</title>
   <!-- Meta tag for thumbnails -->
   <meta name="author" content="Forum Open Source Teknik Informatika UMS" />
-  <meta property="og:title" content="FOSTI UMS" />
-  <meta property="og:url" content="url here" />
-  <meta property="og:description" content="Forum Open Source Teknik Informatika Universitas Muhammadiyah Surakarta">
-  <meta property="og:image" content="thumbnails here">
-  <meta property="og:type" content="Non Profit Organization" />
+  <meta name="title" content="FOSTI UMS"/>
+  <meta property="og:title" content="FOSTI UMS" />  
+  <meta name="description" content="Unit kegiatan mahasiswa Fakultas Komunikasi dan Informatika Universitas Muhammadiyah Surakarta yang mempelajari, memperdalam, dan menyebarkan open source."/>
+  <meta property="og:description" content="Unit kegiatan mahasiswa Fakultas Komunikasi dan Informatika Universitas Muhammadiyah Surakarta yang mempelajari, memperdalam, dan menyebarkan open source.">
+  <meta property="og:url" content="https://fostiums.org/" />
+  <meta property="og:image" content="./source/images/logo-fosti.webp">
+  <meta property="og:image:alt" content="Logo Fosti UMS"/>
+  <meta property="og:type" content="website" />
+  <meta property="webcrawlers" content="all"/>
+  <meta property="spiders" content="all"/>
+  <meta property="robots" content="all"/>
+
+  <link rel="icon" href="/favicon.ico"/>
 
   <link rel="stylesheet" href="source/css/bootstrap.min.css">
   <link rel="stylesheet" href="source/css/fontawesome.min.css">
@@ -24,16 +31,15 @@
   <link rel="stylesheet" href="source/css/lightslider.css">
   <link rel="stylesheet" href="source/css/animation.css">
 
-  <link rel="stylesheet" href="source/css/style.css">
-
+  <link rel="stylesheet" href="source/css/style.css">  
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
   <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container">
-      <a href="#" id="logo">
-        FOSTI UMS
+      <a href="./" id="logo">
+        <img style="height: 60px; width: 60px;" src="./source/images/logo-fosti.webp" alt="Foti UMS Logo">
       </a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,8 +76,8 @@
         <div class="col-lg-5 align-self-center">
           <div id="hero">
             <h1 data-aos="fade-up" data-aos-delay="200">Forum Open Source Teknik Informatika</h1>
-            <p data-aos="fade-up" data-aos-delay="400">FOSTI merupakan unit kegiatan mahasiswa Fakultas Komunikasi dan
-              Informatika Universitas Muhammadiyah
+            <p data-aos="fade-up" data-aos-delay="400">
+              FOSTI merupakan unit kegiatan mahasiswa Fakultas Komunikasi dan Informatika Universitas Muhammadiyah
               Surakarta yang mempelajari, memperdalam, dan menyebarkan open source. Didirikan pada 21 Desember 2008.
             </p>
             <div data-aos="fade-up" data-aos-delay="600">
@@ -94,26 +100,26 @@
         <div class="col-lg-4 center-vertical">
           <div class="about-img">
             <div class="title-wrapper">
-              <h2 data-aos="fade-up" data-aos-delay="400">Pembagian Divisi Pada FOSTI</h2>
-              <span data-aos="fade-up" data-aos-delay="800" class="subtitle">FOSTI terbagi menjadi 4 divisi yang
-                masing-masing mengemban tugas yang berbeda.
-                Keempat
-                divisi nya
-                yaitu</span>
+              <h2 data-aos="fade-up" data-aos-delay="400">
+                Pembagian Divisi Pada FOSTI
+              </h2>
+              <span data-aos="fade-up" data-aos-delay="800" class="subtitle">
+                FOSTI terbagi menjadi 3 divisi yang masing-masing mengemban tugas yang berbeda. Ketiga divisinya yaitu sebagai berikut.
+              </span>
             </div>
           </div>
         </div>
         <div class="col-lg-8">
           <div class="about-detail">
             <div class="row">
-              
               <div class="col-sm-6">
-                <div class="about-detail-item" data-aos="fade-left" data-aos-delay="400">
-                  <img src="source/images/web.png" alt="icon">
-                  <h4>Divisi Riset, keilmuan dan Teknologi</h4>
+                <div class="about-detail-item" data-aos="fade-left" data-aos-delay="200">
+                  <img src="source/images/research.png" alt="icon">
+                  <h4>Keilmuan & Riset Teknologi</h4>
                   <p>Divisi yang mengulas dan mengimplementasikan teknologi saat ini</p>
-                  <a href="#" class="btn-more" data-toggle="modal" data-target="#webjar">Selengkapnya <i
-                      class="fas fa-long-arrow-alt-right"></i></a>
+                  <a class="btn-more" data-toggle="modal" data-target="#ristek">
+                    Selengkapnya
+                  <i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
               </div>
               <div class="col-sm-6">
@@ -121,7 +127,7 @@
                   <img src="source/images/organization.png" alt="icon">
                   <h4>Keorganisasian</h4>
                   <p>Divisi yang mengurus pengkaderan, internal dan juga event FOSTI</p>
-                  <a href="#" class="btn-more" data-toggle="modal" data-target="#keor">Selengkapnya <i
+                  <a class="btn-more" data-toggle="modal" data-target="#keor">Selengkapnya <i
                       class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
               </div>
@@ -130,7 +136,7 @@
                   <img src="source/images/public-relation.png" alt="icon">
                   <h4>Hubungan Publik</h4>
                   <p>Divisi yang berkutat di bagian informasi dan media sosial FOSTI</p>
-                  <a href="#" class="btn-more" data-toggle="modal" data-target="#hubpub">Selengkapnya <i
+                  <a class="btn-more" data-toggle="modal" data-target="#hubpub">Selengkapnya <i
                       class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
               </div>
@@ -168,11 +174,6 @@
                     <label class="btn btn-outline-primary btn-filter-custom">
                       <span class="filter">
                         <input type="radio" name="shuffle-filter" value="ristek" />Riset & Teknologi
-                      </span>
-                    </label>
-                    <label class="btn btn-outline-primary btn-filter-custom">
-                      <span class="filter">
-                        <input type="radio" name="shuffle-filter" value="webjar" />Web & Jaringan
                       </span>
                     </label>
                     <label class="btn btn-outline-primary btn-filter-custom">
@@ -227,40 +228,6 @@
                     </a>
                     <figcaption itemprop="caption description">Your name here</figcaption>
                   </figure>
-
-
-                  <!------------------------   Webjar Section  ------------------------>
-                  <figure class="image-item col-lg-3 col-6" data-groups="[&quot;webjar&quot;]" itemscope>
-                    <a href="source/images/gallery/webjar/webjar-all.jpg" data-size="5184x3456">
-                      <img src="source/images/gallery/webjar/webjar-all.jpg" itemprop="thumbnail" alt="image_desc" />
-                    </a>
-                    <figcaption itemprop="caption description">Your name here</figcaption>
-                  </figure>
-                  <figure class="image-item col-lg-3 col-6" data-groups="[&quot;webjar&quot;]" itemscope>
-                    <a href="source/images/gallery/webjar/webjar-1.jpg" data-size="5184x3456">
-                      <img src="source/images/gallery/webjar/webjar-1.jpg" itemprop="thumbnail" alt="image_desc" />
-                    </a>
-                    <figcaption itemprop="caption description">Your name here</figcaption>
-                  </figure>
-                  <figure class="image-item col-lg-3 col-6" data-groups="[&quot;webjar&quot;]" itemscope>
-                    <a href="source/images/gallery/webjar/webjar-2.jpg" data-size="5184x3456">
-                      <img src="source/images/gallery/webjar/webjar-2.jpg" itemprop="thumbnail" alt="image_desc" />
-                    </a>
-                    <figcaption itemprop="caption description">Your name here</figcaption>
-                  </figure>
-                  <figure class="image-item col-lg-3 col-6" data-groups="[&quot;webjar&quot;]" itemscope>
-                    <a href="source/images/gallery/webjar/webjar-3.jpg" data-size="5184x3456">
-                      <img src="source/images/gallery/webjar/webjar-3.jpg" itemprop="thumbnail" alt="image_desc" />
-                    </a>
-                    <figcaption itemprop="caption description">Your name here</figcaption>
-                  </figure>
-                  <figure class="image-item col-lg-3 col-6" data-groups="[&quot;webjar&quot;]" itemscope>
-                    <a href="source/images/gallery/webjar/webjar-4.jpg" data-size="5184x3456">
-                      <img src="source/images/gallery/webjar/webjar-4.jpg" itemprop="thumbnail" alt="image_desc" />
-                    </a>
-                    <figcaption itemprop="caption description">Your name here</figcaption>
-                  </figure>
-
 
                   <!------------------------   Keor Section  ------------------------>
                   <figure class="image-item col-lg-3 col-6" data-groups="[&quot;keor&quot;]" itemscope>
@@ -377,24 +344,20 @@
       <h3 data-aos="fade-up">Latest FOSTI Event</h3>
       <div class="row d-flex col-reverse">
         <div class="col-lg-6 align-self-center">
-          <p data-aos="fade-right" data-aos-delay="200">FOSSCLASS GOES TO PUBLIC (FTP) 2020</p>
-          <p data-aos="fade-right" data-aos-delay="400">FOSTI UMS (Forum Open Source Teknik Informatika UMS) mengajak
-            kita untuk belajar lebih
-            tentang Fullstack
-            Web Developer, dalam acara kami : </p>
-          <p data-aos="fade-right" data-aos-delay="600">FOSSCLASS GOES TO PUBLIC (FTP) 2020</p>
+          <p class="title" data-aos="fade-right" data-aos-delay="200">JUDUL EVENT</p>
+          <p class="description" data-aos="fade-right" data-aos-delay="400">Deskripsi event ....</p>
           <ul data-aos="fade-right" data-aos-delay="800">
-            <li>📅 Tanggal : Jum'at, 04 September 2020</li>
-            <li>⏰ Waktu : 19.30 WIB - selesai</li>
-            <li>📝 Tempat : Platform Webinar FTP</li>
+            <li class="date">📅 Tanggal : <span>00-00-0000</span></li>
+            <li class="time">⏰ Waktu &nbsp;&nbsp;&nbsp;&nbsp;: <span>00.00 WIB</span></li>
+            <li class="place">📝 Tempat &nbsp;: <span>-</span></li>
           </ul>
           <div data-aos="fade-right" data-aos-delay="1000">
-            <a href="#" class="btn-more">Lihat Event <i class="fas fa-long-arrow-alt-right"></i></a>
+            <a class="show-event btn-more">Join Event <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="poster">
-            <img data-aos="fade-left" data-aos-delay="600" src="source/images/poster.png" alt="poster">
+            <img class="phamplet" data-aos="fade-left" data-aos-delay="600" src="source/images/base-phamplet.png" alt="poster">
             <img data-aos="fade-up" data-aos-delay="800" src="source/images/rectangle.png" alt="rectangle">
           </div>
         </div>
@@ -414,7 +377,7 @@
           </div>
           <div class="col-lg-6 align-self-center block-cta">
             <div data-aos="fade-right">
-              <a href="https://oprec.fostiums.org" class="btn btn-lg btn-green">Join With Us</a>
+              <a href="https://oprec.fostiums.org/" class="btn btn-lg btn-green">Join With Us</a>
             </div>
           </div>
         </div>
@@ -427,61 +390,47 @@
   <footer id="footer-wrapper">
     <div class="container">
       <div class="row d-flex">
-        <div class="col-lg-3">
+        <div class="col-lg-4" >
           <div data-aos="fade-up">
             <h3>FOSTI UMS</h3>
             <p>Forum Open Source Teknik Informatika Universitas Muhammadiyah Surakarta</p>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-6">
+        <div class="col-lg-2 col-sm-6" >
           <div data-aos="fade-up" data-aos-delay="200">
-            <h5>Support</h5>
+            <h5>Layanan</h5>
             <ul>
-              <li><a href="#">Tutorial</a></li>
-              <li><a href="#">Presentation</a></li>
-              <li><a href="#">Messages</a></li>
-              <li><a href="#">Management</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Privacy & Policy</a></li>
+              <li><a href="https://instagram.com/fosti_ums">Event</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-6">
+        <div class="col-lg-2 col-sm-6" >
+          <div data-aos="fade-up" data-aos-delay="200">
+            <h5>Other</h5>
+            <ul>
+              <li><a href="https://github.com/FOSTI-UMS">Github</a></li>
+              <li><a href="https://blog.fostiums.org/">Blog</a></li>
+              <li><a href="https://event.fostiums.org/">Event</a></li>
+              <li><a href="https://fosclass.fostiums.org/">Fosclass</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
           <div data-aos="fade-up" data-aos-delay="400">
-            <h5>Team</h5>
-            <ul>
-              <li><a href="#">Our Team</a></li>
-              <li><a href="#">Support Us</a></li>
-              <li><a href="#">Developer</a></li>
-              <li><a href="#">Design Team</a></li>
-              <li><a href="#">Carers</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-sm-6">
-          <div data-aos="fade-up" data-aos-delay="600">
-            <h5>Services</h5>
-            <ul>
-              <li><a href="#">Promoted</a></li>
-              <li><a href="#">Shared</a></li>
-              <li><a href="#">Influencer</a></li>
-              <li><a href="#">Bussines</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div data-aos="fade-up" data-aos-delay="800">
             <h5>Address</h5>
             <p>Jl. Ahmad Yani, Pabelan, Kartasura, Surakarta 57162</p>
             <div class="social-media">
               <ul>
                 <li>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/Fosti.Umsurakarta/"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/fosti_ums/"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="https://twitter.com/fostiums"><i class="fab fa-twitter"></i></a>
                 </li>
               </ul>
             </div>
@@ -494,7 +443,11 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <span>© All rights reserved 2020 | Created by Fosti with <i class="fas fa-heart"></i></span>
+          <footer>&copy; All rights reserved
+            <script>
+              document.write("- " + new Date().getFullYear());
+            </script> | Created by Fosti with <i class="fas fa-heart"></i>
+          </footer>
         </div>
       </div>
     </div>
@@ -556,51 +509,7 @@
       </div>
     </div>
   </div>
-  <div class="modal fade modal-fullscreen" id="webjar" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="modal-title-wrapper">
-            <img src="source/images/web.png" alt="research">
-            <div class="title">
-              <h2>Divisi Web dan Jaringan</h2>
-              <p class="m-0">Divisi yang membina anggota FOSTI UMS untuk meningkatkan kemampuan dalam bidang web dan
-                jaringan serta kemampuan algoritma. Kegiatan yang dilakukan meliputi</p>
-            </div>
-          </div>
-          <div class="modal-content-wrapper">
-            <div class="card-flex-2">
-              <div class="modal-content-item">
-                <i class="fas fa-network-wired"></i>
-                <h3 class="pb-2">FOSSCLASS</h3>
-                <span>Program ini diadakan dua minggu sekali berupa pelatihan tentang pengembangan Web, PHP, Laravel,
-                  Jaringan Komputer, dan lain-lain.</span>
-              </div>
-              <div class="modal-content-item">
-                <i class="fas fa-code-branch"></i>
-                <h3 class="pb-2">Pengembangan dan Maintenance Web FOSTI</h3>
-                <span>Membuat suatu product baru untuk fosti yang bisa digunakan banyak orang</span>
-              </div>
-              <div class="modal-content-item">
-                <i class="fas fa-microphone-alt"></i>
-                <h3 class="pb-2">Seminar Nasional</h3>
-                <span>Mengadakan Workshop bertaraf Nasional mengendai teknologi dan pengembangan open source.</span>
-              </div>
-              <div class="modal-content-item">
-                <i class="fab fa-free-code-camp"></i>
-                <h3 class="pb-2">Ngobar (Ngoding Bareng) </h3>
-                <span>Proker insidental yang mengajak anggota-anggota fosti untuk belajar pemrograman bersama-sama di
-                  café atau tempat diluar kampus. Biasanya membahas tentang web security maupun python</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-green btn-sm" data-dismiss="modal">Tutup Panel</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <div class="modal fade modal-fullscreen" id="keor" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -608,7 +517,7 @@
           <div class="modal-title-wrapper">
             <img src="source/images/organization.png" alt="research">
             <div class="title">
-              <h2>Divisi Web dan Jaringan</h2>
+              <h2>Keorganisasian</h2>
               <p class="m-0">Divisi yang menciptakan hubungan yang erat dan menjalin kerja sama yang baik antar anggota
                 FOSTI UMS, mengadakan pembelajaran untuk meningkatkan pengetahuan dan pemahaman tentang keorganisasian
                 di FOSTI UMS serta mempersiapkan calon anggota baru FOSTI UMS untuk kepengurusan berikutnya. Total
@@ -655,7 +564,7 @@
                   <li>
                     <div class="insidental">
                       <div class="insidental-img">
-                        <img src="./source/images/members.png" alt="images">
+                        <img src="./source/images/work-program.webp" alt="images">
                       </div>
                       <div class="insidental-text">
                         <h4>Fosti Sehat</h4>
@@ -667,7 +576,7 @@
                   <li>
                     <div class="insidental">
                       <div class="insidental-img">
-                        <img src="./source/images/members.png" alt="images">
+                        <img src="./source/images/work-program.webp" alt="images">
                       </div>
                       <div class="insidental-text">
                         <h4>Fosti Holiday</h4>
@@ -679,7 +588,7 @@
                   <li>
                     <div class="insidental">
                       <div class="insidental-img">
-                        <img src="./source/images/members.png" alt="images">
+                        <img src="./source/images/work-program.webp" alt="images">
                       </div>
                       <div class="insidental-text">
                         <h4>Bakar-bakar</h4>
@@ -690,7 +599,7 @@
                   <li>
                     <div class="insidental">
                       <div class="insidental-img">
-                        <img src="./source/images/members.png" alt="images">
+                        <img src="./source/images/work-program.webp" alt="images">
                       </div>
                       <div class="insidental-text">
                         <h4>Bukber (Buka Bersama)</h4>
@@ -701,7 +610,7 @@
                   <li>
                     <div class="insidental">
                       <div class="insidental-img">
-                        <img src="./source/images/members.png" alt="images">
+                        <img src="./source/images/work-program.webp" alt="images">
                       </div>
                       <div class="insidental-text">
                         <h4>FOSKA (Fosti Kajian)</h4>
@@ -739,7 +648,7 @@
               <li>
                 <div class="insidental">
                   <div class="insidental-img">
-                    <img src="./source/images/members.png" alt="images">
+                    <img src="./source/images/work-program.webp" alt="images">
                   </div>
                   <div class="insidental-text">
                     <h4>Maintenance Sosial Media FOSTI</h4>
@@ -752,7 +661,7 @@
               <li>
                 <div class="insidental">
                   <div class="insidental-img">
-                    <img src="./source/images/members.png" alt="images">
+                    <img src="./source/images/work-program.webp" alt="images">
                   </div>
                   <div class="insidental-text">
                     <h4>Update Blog FOSTI</h4>
@@ -764,7 +673,7 @@
               <li>
                 <div class="insidental">
                   <div class="insidental-img">
-                    <img src="./source/images/members.png" alt="images">
+                    <img src="./source/images/work-program.webp" alt="images">
                   </div>
                   <div class="insidental-text">
                     <h4>ROADSHOW FOSTI (Pelatihan Teknologi ke Sekolah)</h4>
@@ -777,7 +686,7 @@
               <li>
                 <div class="insidental">
                   <div class="insidental-img">
-                    <img src="./source/images/members.png" alt="images">
+                    <img src="./source/images/work-program.webp" alt="images">
                   </div>
                   <div class="insidental-text">
                     <h4>Studi Banding</h4>
@@ -789,20 +698,18 @@
               <li>
                 <div class="insidental">
                   <div class="insidental-img">
-                    <img src="./source/images/members.png" alt="images">
+                    <img src="./source/images/work-program.webp" alt="images">
                   </div>
                   <div class="insidental-text">
                     <h4>FOSTARIA (Fosti Fakultaria)</h4>
-                    <p>Mengikuti acara Fakultaria yang diselenggarakan fakultas. Didalamnya kita mengenalkan UKM FOSTI
-                      ke
-                      mahasiswa baru.</p>
+                    <p>Mengikuti acara Fakultaria yang diselenggarakan fakultas. Didalamnya kita mengenalkan UKM FOSTI ke mahasiswa baru.</p>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="insidental">
                   <div class="insidental-img">
-                    <img src="./source/images/members.png" alt="images">
+                    <img src="./source/images/work-program.webp" alt="images">
                   </div>
                   <div class="insidental-text">
                     <h4>Pembuatan PDH dan ID Card</h4>
@@ -814,7 +721,7 @@
               <li>
                 <div class="insidental">
                   <div class="insidental-img">
-                    <img src="./source/images/members.png" alt="images">
+                    <img src="./source/images/work-program.webp" alt="images">
                   </div>
                   <div class="insidental-text">
                     <h4>Company Profile FOSTI</h4>
@@ -873,15 +780,15 @@
   <div class='scrolltop'>
     <div class='scroll icon'><i class="fas fa-angle-up"></i></div>
   </div>
-  <script src="source/js/jquery.min.js"></script>
-  <script src="source/js/bootstrap.bundle.min.js"></script>
-  <script src="source/js/photoswipe.min.js"></script>
-  <script src="source/js/photoswipe-ui-default.min.js"></script>
-  <script src="source/js/shuffle.js"></script>
-  <script src="source/js/lightslider.js"></script>
-  <script src="source/js/photoswipe_galley_separate.js"></script>
-  <script src="source/js/photoswipe_products_separate.js"></script>
-  <script src="source/js/aos.js"></script>
-  <script src="source/js/script.js"></script>
 
+  <script src="source/js/lib/jquery.min.js"></script>
+  <script src="source/js/lib/bootstrap.bundle.min.js"></script>
+  <script src="source/js/lib/photoswipe.min.js"></script>
+  <script src="source/js/lib/photoswipe-ui-default.min.js"></script>
+  <script src="source/js/lib/shuffle.js"></script>
+  <script src="source/js/lib/lightslider.js"></script>
+  <script src="source/js/lib/photoswipe_galley_separate.js"></script>
+  <script src="source/js/lib/photoswipe_products_separate.js"></script>
+  <script src="source/js/lib/aos.js"></script>
+  <script type="module" src="source/js/script.js"></script>
 </html>

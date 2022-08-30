@@ -6,7 +6,7 @@
  * Contributor        : -
  * Author URI         : http://dzakifadh.github.io
  *
- * Fosti UMS. Copyright 2020. All Rights Reserved.
+ * Fosti UMS. Copyright 2022. All Rights Reserved.
 * -------------------------------------------------------------------------- */
 
 /* --------------------------------------------------------------------------
@@ -213,7 +213,6 @@ a.btn-more {
 /* --------------------------------------------------------------------------
 2. Navbar
 -------------------------------------------------------------------------- */
-
 .navbar-custom {
   padding: 1.5rem !important;
   background-color: rgba(0, 0, 0, 0);
@@ -450,7 +449,7 @@ span.subtitle {
 6. News
 -------------------------------------------------------------------------- */
 #news-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #news-wrapper h3 {
   font-weight: 600;
@@ -480,6 +479,7 @@ span.subtitle {
   float: right;
   z-index: 1;
   position: relative;
+  width: 20rem;
 }
 #news-wrapper img:nth-child(2) {
   position: absolute;
@@ -560,7 +560,7 @@ span.subtitle {
   width: 50px;
   height: 50px;
   background: #fff;
-  margin-right: 15px;
+  margin-right: 12px;
   text-align: center;
 }
 .social-media a:hover {
